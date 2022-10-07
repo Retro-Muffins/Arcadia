@@ -126,15 +126,17 @@ true,
 true,
 true
 ],
-"optDisplayTp": true,
+"optDisplayTp": false,
 "optDrawTitle": true,
 "optExtraExp": false,
 "optFloorDeath": false,
-"optFollowers": true,
+"optFollowers": false,
 "optSideView": false,
 "optSlipDeath": false,
 "optTransparent": false,
-"partyMembers": [],
+"partyMembers": [
+1
+],
 "ship": {
 "bgm": {
 "name": "",
@@ -298,13 +300,13 @@ true
 "volume": 90
 }
 ],
-"startMapId": 1,
-"startX": 8,
+"startMapId": 2,
+"startX": 9,
 "startY": 6,
 "switches": [
 "",
-"",
-"",
+"camera",
+"visited_twins_bdrmL",
 "",
 "",
 "",
@@ -488,7 +490,7 @@ null,
 },
 "variables": [
 "",
-"",
+"obj_found_count",
 "",
 "",
 "",
