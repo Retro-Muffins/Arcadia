@@ -1,9 +1,9 @@
 [
 null,
-{"id":1,"expanded":true,"name":"twins_hub","order":2,"parentId":0,"scrollX":0,"scrollY":0},
-{"id":2,"expanded":true,"name":"intro_storeroom","order":1,"parentId":0,"scrollX":0,"scrollY":0},
-{"id":3,"expanded":true,"name":"twins_bdrmL","order":3,"parentId":1,"scrollX":0,"scrollY":0},
-{"id":4,"expanded":true,"name":"twins_bdrmR","order":4,"parentId":1,"scrollX":0,"scrollY":0},
+{"id":1,"expanded":true,"name":"twins_hub","order":2,"parentId":0,"scrollX":459,"scrollY":312.5},
+{"id":2,"expanded":true,"name":"intro_storeroom","order":1,"parentId":0,"scrollX":981,"scrollY":304.5},
+{"id":3,"expanded":true,"name":"twins_bdrmL","order":3,"parentId":1,"scrollX":459,"scrollY":312.5},
+{"id":4,"expanded":true,"name":"twins_bdrmR","order":4,"parentId":1,"scrollX":459,"scrollY":312.5},
 null,
 null,
 null,
