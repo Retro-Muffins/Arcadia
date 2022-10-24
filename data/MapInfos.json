@@ -1,6 +1,6 @@
 [
 null,
-{"id":1,"expanded":true,"name":"Rager_Corridor","order":1,"parentId":0,"scrollX":780.4444444444445,"scrollY":270.6666666666667},
+{"id":1,"expanded":true,"name":"Rager_Corridor","order":1,"parentId":0,"scrollX":408,"scrollY":270.6666666666667},
 null,
 {"id":3,"expanded":true,"name":"Rager_FlowerRm","order":3,"parentId":4,"scrollX":408,"scrollY":277.77777777777777},
 {"id":4,"expanded":true,"name":"Rager_SteamRm","order":2,"parentId":1,"scrollX":408,"scrollY":277.77777777777777},
