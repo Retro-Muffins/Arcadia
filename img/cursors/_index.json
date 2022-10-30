@@ -1,7 +1,1 @@
-[
-    "camera_cursor.png",
-    "default.png",
-    "door_cursor.png",
-    "inspect_cursor.png",
-    "talk_cursor.png"
-]
+["camera_cursor_x16_y16.png","default.png","door_cursor_x12_y16.png","inspect_cursor_x8_y8.png","talk_cursor_x16_y16.png"]
