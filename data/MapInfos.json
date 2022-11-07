@@ -8,5 +8,6 @@ null,
 {"id":6,"expanded":true,"name":"Rager_ArcadeRm","order":5,"parentId":1,"scrollX":0,"scrollY":0},
 {"id":7,"expanded":true,"name":"Intro_ArcadeMain","order":8,"parentId":0,"scrollX":0,"scrollY":0},
 {"id":8,"expanded":false,"name":"dev_twins","order":7,"parentId":0,"scrollX":0,"scrollY":0},
-{"id":9,"expanded":false,"name":"Intro_ArcadeBack","order":9,"parentId":7,"scrollX":0,"scrollY":0}
+{"id":9,"expanded":false,"name":"Intro_ArcadeBack","order":9,"parentId":7,"scrollX":0,"scrollY":0},
+{"id":10,"expanded":false,"name":"dev_chad","order":8,"parentId":0,"scrollX":0,"scrollY":0}
 ]
