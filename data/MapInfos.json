@@ -12,5 +12,8 @@ null,
 {"id":10,"expanded":false,"name":"dev_chad","order":8,"parentId":0,"scrollX":0,"scrollY":0},
 {"id":11,"expanded":true,"name":"Twins_Main","order":11,"parentId":0,"scrollX":0, "scrollY":0},
 {"id":12,"expanded":true,"name":"Twins_Left","order":12,"parentId":11,"scrollX":0, "scrollY":0},
-{"id":13,"expanded":false,"name":"Twins_Right","order":13,"parentId":11,"scrollX":0, "scrollY":0}
+{"id":13,"expanded":false,"name":"Twins_Right","order":13,"parentId":11,"scrollX":0, "scrollY":0},
+{"id":14,"expanded":true,"name":"Chad_Lounge","order":15,"parentId":15,"scrollX":0,"scrollY":0},
+{"id":15,"expanded":false,"name":"Chad_Shoe","order":14,"parentId":0,"scrollX":0,"scrollY":0},
+{"id":16,"expanded":false,"name":"Chad_BowlAlley","order":16,"parentId":15,"scrollX":0,"scrollY":0}
 ]
