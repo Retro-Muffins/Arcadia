@@ -61,20 +61,44 @@
           : this.character(eval(-1));
         // MOVE
         player.setTarget(subject)
+        player._moveSpeed = 5;
 
         // WAIT NEAR
         var isNear = Math.abs(player.x - player._targetX) <= 1 &&
           Math.abs(player.y - player._targetY) <= 1;
 
         if (!(isNear)) {
-          this.wait(20);
+          this.wait(.5);
           this.jumpTo(this._index - 1);
+
         } else {
           // CANCEL
           player.clearTarget();
+          player._moveSpeed = 4;
+
         }
 
-        subject.clearTarget();
+      subject.clearTarget();
+
+
+        // if (!(isNear) && !(Input.isPressed("escape"))) {
+        //   this.wait(.5);
+        //   this.jumpTo(this._index - 1);
+
+        // } else {
+        //   // CANCEL
+        //   if ((Input.isPressed("escape"))){
+        //     $gameMap._interpreter.command115();
+        //   }
+        //   player.clearTarget();
+        //   player._moveSpeed = 4;
+
+        // }
+
+        // subject.clearTarget();
+
+
+
 
       } else if (args[1].toUpperCase() === 'RM_MOVE') {
         player = this.findEvent
@@ -82,16 +106,27 @@
           : this.character(eval(-1));
         // MOVE
         player.setTarget(null, eval(args[2]), eval(args[3]))
-       
+        player._moveSpeed = 5;
+
         // WAIT
         if (!(player.x == player._targetX && player.y == player._targetY)) {
           this.wait(20);
           this.jumpTo(this._index - 1);
         } else {
         // CANCEL
-            player.clearTarget();
+          player.clearTarget();
+          player._moveSpeed = 4;
         }
 
+        subject.clearTarget();
+
+      } else if (args[1].toUpperCase() === 'RM_CANCEL') {
+        player = this.findEvent
+          ? this.findEvent(-1)
+          : this.character(eval(-1));
+        
+        player.clearTarget();
+        
         subject.clearTarget();
 
       } else if (args[1].toUpperCase() === 'WAIT') {
