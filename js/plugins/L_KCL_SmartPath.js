@@ -33,6 +33,14 @@
  * Update by Lloyd99124:
  *   Added the RM_MOVE which moves the player to a position
  *   waits until it reaches the position and then cancels movement.
+ *   Added the RM_MOVE_NEAR which moves the player near the event (1 tile)
+ *   waits until it reaches the position and then cancels movement.
+ * Plugin Commands Lloyd99124:
+ * 
+ * Move the player near the event (1 tile around it):
+ * SMARTPATH eventId RM_MOVE_NEAR		#normally just use 0
+ * SMARTPATH eventId RM_MOVE x y		#eventId is not necessary, just leave it as 0
+ * 
  */
 
 (function() {
@@ -47,6 +55,27 @@
 
       if (args[1].toUpperCase() === 'CANCEL') {
         subject.clearTarget();
+      } else if (args[1].toUpperCase() === 'RM_MOVE_NEAR') {
+        player = this.findEvent
+          ? this.findEvent(-1)
+          : this.character(eval(-1));
+        // MOVE
+        player.setTarget(subject)
+
+        // WAIT NEAR
+        var isNear = Math.abs(player.x - player._targetX) <= 1 &&
+          Math.abs(player.y - player._targetY) <= 1;
+
+        if (!(isNear)) {
+          this.wait(20);
+          this.jumpTo(this._index - 1);
+        } else {
+          // CANCEL
+          player.clearTarget();
+        }
+
+        subject.clearTarget();
+
       } else if (args[1].toUpperCase() === 'RM_MOVE') {
         player = this.findEvent
           ? this.findEvent(-1)
