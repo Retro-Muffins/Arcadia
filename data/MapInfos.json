@@ -17,5 +17,6 @@ null,
 {"id":15,"expanded":false,"name":"Chad_Shoe","order":16,"parentId":0,"scrollX":0,"scrollY":0},
 {"id":16,"expanded":false,"name":"Chad_BowlAlley","order":18,"parentId":15,"scrollX":0,"scrollY":0},
 {"id":17,"expanded":false,"name":"Hub_Main","order":7,"parentId":0,"scrollX":0,"scrollY":0},
-{"id":18,"expanded":false,"name":"dev_hub","order":4,"parentId":0,"scrollX":0,"scrollY":0}
+{"id":18,"expanded":false,"name":"dev_hub","order":4,"parentId":0,"scrollX":0,"scrollY":0},
+{"id":19,"expanded":false,"name":"Ending","order":19,"parentId":0,"scrollX":0,"scrollY":0}
 ]
